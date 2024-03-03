@@ -45,6 +45,9 @@
     <ClCompile Include="U5 - Source Code Management 1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="U6 - Advanced File Operations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SearchingSortingArrays.h">

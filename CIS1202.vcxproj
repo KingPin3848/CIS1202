@@ -137,6 +137,7 @@
     <ClCompile Include="U4 - Data Structures 1.cpp" />
     <ClCompile Include="U4 - Data Structures 2.cpp" />
     <ClCompile Include="U5 - Source Code Management 1.cpp" />
+    <ClCompile Include="U6 - Advanced File Operations.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SearchingSortingArrays.h" />
