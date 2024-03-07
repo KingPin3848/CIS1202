@@ -48,10 +48,19 @@
     <ClCompile Include="U6 - Advanced File Operations.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Publication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SearchingSortingArrays.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Publication.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
