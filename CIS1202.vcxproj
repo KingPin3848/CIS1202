@@ -131,6 +131,7 @@
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Midterm-Project.cpp" />
     <ClCompile Include="Publication.cpp" />
+    <ClCompile Include="PubMain.cpp" />
     <ClCompile Include="U1 - Review.cpp" />
     <ClCompile Include="U2 - CharactersAndString.cpp" />
     <ClCompile Include="U2 - SearchingSortingArrays.cpp" />
