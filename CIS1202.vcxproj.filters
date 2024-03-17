@@ -13,57 +13,102 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Unit 8">
+      <UniqueIdentifier>{6977a7fb-87ce-49df-9d1a-e3e008594af6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Unit 7">
+      <UniqueIdentifier>{dd42114c-0f35-473c-91c4-d144af523aee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Unit 1">
+      <UniqueIdentifier>{5f64dd90-970a-4f48-9a09-d2be4cfda50f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Unit 2">
+      <UniqueIdentifier>{87c74fb7-1283-49cd-a096-dffd41cc9d28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Unit 3">
+      <UniqueIdentifier>{ad1fe341-8828-478f-b0b9-afcbb31b1619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Unit 4">
+      <UniqueIdentifier>{4e7c787f-956d-43ff-a12c-da19b52d47c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Unit 5">
+      <UniqueIdentifier>{5aea54f9-e8e4-48b8-b31e-72ebef68f7c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Unit 6">
+      <UniqueIdentifier>{ad4d0381-1483-4221-a330-6d396ca68472}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="U1 - Review.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Experiment.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="U2 - SearchingSortingArrays.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="U2 - CharactersAndString.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="U3 - Pointers1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="U3 - Pointers2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="U4 - Data Structures 1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="U4 - Data Structures 2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Midterm-Project.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="U5 - Source Code Management 1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="U6 - Advanced File Operations.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Publication.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="theMain.cpp">
+      <Filter>Source Files\Unit 8</Filter>
+    </ClCompile>
+    <ClCompile Include="Publication.cpp">
+      <Filter>Source Files\Unit 7</Filter>
+    </ClCompile>
     <ClCompile Include="PubMain.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Unit 7</Filter>
+    </ClCompile>
+    <ClCompile Include="U1 - Review.cpp">
+      <Filter>Source Files\Unit 1</Filter>
+    </ClCompile>
+    <ClCompile Include="U2 - CharactersAndString.cpp">
+      <Filter>Source Files\Unit 2</Filter>
+    </ClCompile>
+    <ClCompile Include="U2 - SearchingSortingArrays.cpp">
+      <Filter>Source Files\Unit 2</Filter>
+    </ClCompile>
+    <ClCompile Include="U3 - Pointers1.cpp">
+      <Filter>Source Files\Unit 3</Filter>
+    </ClCompile>
+    <ClCompile Include="U3 - Pointers2.cpp">
+      <Filter>Source Files\Unit 3</Filter>
+    </ClCompile>
+    <ClCompile Include="U4 - Data Structures 1.cpp">
+      <Filter>Source Files\Unit 4</Filter>
+    </ClCompile>
+    <ClCompile Include="U4 - Data Structures 2.cpp">
+      <Filter>Source Files\Unit 4</Filter>
+    </ClCompile>
+    <ClCompile Include="U5 - Source Code Management 1.cpp">
+      <Filter>Source Files\Unit 5</Filter>
+    </ClCompile>
+    <ClCompile Include="U6 - Advanced File Operations.cpp">
+      <Filter>Source Files\Unit 6</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle.cpp">
+      <Filter>Source Files\Unit 8</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>Source Files\Unit 8</Filter>
+    </ClCompile>
+    <ClCompile Include="Truck.cpp">
+      <Filter>Source Files\Unit 8</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SearchingSortingArrays.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Truck.h">
+      <Filter>Source Files\Unit 8</Filter>
+    </ClInclude>
     <ClInclude Include="Publication.h">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Unit 7</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle.h">
+      <Filter>Source Files\Unit 8</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>Source Files\Unit 8</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
