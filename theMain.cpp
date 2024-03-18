@@ -1,3 +1,4 @@
+/*
 #include "Vehicle.h"
 #include "Car.h"
 #include "Truck.h"
@@ -52,3 +53,4 @@ int main() {
 
     return 0;
 }
+*/

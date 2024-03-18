@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\Unit 8">
-      <UniqueIdentifier>{6977a7fb-87ce-49df-9d1a-e3e008594af6}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\Unit 7">
       <UniqueIdentifier>{dd42114c-0f35-473c-91c4-d144af523aee}</UniqueIdentifier>
     </Filter>
@@ -37,6 +34,12 @@
     <Filter Include="Source Files\Unit 6">
       <UniqueIdentifier>{ad4d0381-1483-4221-a330-6d396ca68472}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Unit 8 - Inheritance">
+      <UniqueIdentifier>{6977a7fb-87ce-49df-9d1a-e3e008594af6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Unit 8 - Exceptions">
+      <UniqueIdentifier>{420a811c-75e7-481d-9411-e586d0e3a012}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Experiment.cpp">
@@ -49,7 +52,7 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="theMain.cpp">
-      <Filter>Source Files\Unit 8</Filter>
+      <Filter>Source Files\Unit 8 - Inheritance</Filter>
     </ClCompile>
     <ClCompile Include="Publication.cpp">
       <Filter>Source Files\Unit 7</Filter>
@@ -85,13 +88,16 @@
       <Filter>Source Files\Unit 6</Filter>
     </ClCompile>
     <ClCompile Include="Vehicle.cpp">
-      <Filter>Source Files\Unit 8</Filter>
+      <Filter>Source Files\Unit 8 - Inheritance</Filter>
     </ClCompile>
     <ClCompile Include="Car.cpp">
-      <Filter>Source Files\Unit 8</Filter>
+      <Filter>Source Files\Unit 8 - Inheritance</Filter>
     </ClCompile>
     <ClCompile Include="Truck.cpp">
-      <Filter>Source Files\Unit 8</Filter>
+      <Filter>Source Files\Unit 8 - Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="exceptionsMain.cpp">
+      <Filter>Source Files\Unit 8 - Exceptions</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -99,16 +105,16 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Truck.h">
-      <Filter>Source Files\Unit 8</Filter>
+      <Filter>Source Files\Unit 8 - Inheritance</Filter>
     </ClInclude>
     <ClInclude Include="Publication.h">
       <Filter>Source Files\Unit 7</Filter>
     </ClInclude>
     <ClInclude Include="Vehicle.h">
-      <Filter>Source Files\Unit 8</Filter>
+      <Filter>Source Files\Unit 8 - Inheritance</Filter>
     </ClInclude>
     <ClInclude Include="Car.h">
-      <Filter>Source Files\Unit 8</Filter>
+      <Filter>Source Files\Unit 8 - Inheritance</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
