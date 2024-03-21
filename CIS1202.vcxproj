@@ -145,6 +145,7 @@
     <ClCompile Include="U4 - Data Structures 2.cpp" />
     <ClCompile Include="U5 - Source Code Management 1.cpp" />
     <ClCompile Include="U6 - Advanced File Operations.cpp" />
+    <ClCompile Include="U8 Templates.cpp" />
     <ClCompile Include="Vehicle.cpp" />
   </ItemGroup>
   <ItemGroup>

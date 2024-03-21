@@ -40,6 +40,9 @@
     <Filter Include="Source Files\Unit 8 - Exceptions">
       <UniqueIdentifier>{420a811c-75e7-481d-9411-e586d0e3a012}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Unit 8 - Templates">
+      <UniqueIdentifier>{3814fb49-7d8d-427f-a27d-cacd76493537}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Experiment.cpp">
@@ -98,6 +101,9 @@
     </ClCompile>
     <ClCompile Include="exceptionsMain.cpp">
       <Filter>Source Files\Unit 8 - Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="U8 Templates.cpp">
+      <Filter>Source Files\Unit 8 - Templates</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
