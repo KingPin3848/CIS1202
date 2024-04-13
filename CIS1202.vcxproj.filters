@@ -43,6 +43,9 @@
     <Filter Include="Source Files\Unit 8 - Templates">
       <UniqueIdentifier>{3814fb49-7d8d-427f-a27d-cacd76493537}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Finals">
+      <UniqueIdentifier>{7cb66a0f-613d-448b-9d15-71f5dc5521ac}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Experiment.cpp">
@@ -105,6 +108,9 @@
     <ClCompile Include="U8 Templates.cpp">
       <Filter>Source Files\Unit 8 - Templates</Filter>
     </ClCompile>
+    <ClCompile Include="FinalsMain.cpp">
+      <Filter>Source Files\Finals</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SearchingSortingArrays.h">
@@ -121,6 +127,9 @@
     </ClInclude>
     <ClInclude Include="Car.h">
       <Filter>Source Files\Unit 8 - Inheritance</Filter>
+    </ClInclude>
+    <ClInclude Include="Expense.h">
+      <Filter>Source Files\Finals</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

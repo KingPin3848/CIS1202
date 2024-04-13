@@ -130,6 +130,7 @@
     <ClCompile Include="Car.cpp" />
     <ClCompile Include="exceptionsMain.cpp" />
     <ClCompile Include="Experiment.cpp" />
+    <ClCompile Include="FinalsMain.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Midterm-Project.cpp" />
     <ClCompile Include="Publication.cpp" />
@@ -150,6 +151,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Car.h" />
+    <ClInclude Include="Expense.h" />
     <ClInclude Include="Publication.h" />
     <ClInclude Include="SearchingSortingArrays.h" />
     <ClInclude Include="Truck.h" />
