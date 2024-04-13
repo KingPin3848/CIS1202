@@ -48,7 +48,7 @@ static void addExpense(std::vector<MonthlyExpense>& expenses) {
     int month;
 
     std::cout << "Enter expense name: ";
-    std::cin >> name;
+    std::getline(std::cin, name);
     std::cin.clear();
 
     std::cout << "Enter expense amount: ";
@@ -81,7 +81,7 @@ static void showExpenses(const std::vector<MonthlyExpense>& expenses) {
 static void findExpense(const std::vector<MonthlyExpense>& expenses) {
     std::string name;
     std::cout << "Enter the name of the expense you want to find: ";
-    std::cin >> name;
+    std::getline(std::cin, name);
 
     bool found = false;
     for (const auto& expense : expenses) {
@@ -111,32 +111,29 @@ int main() {
     while (true) {
         std::cout << "Enter your choice: ";
         std::cin >> choice;
+        std::cin.ignore();  // Ignore the newline character left in the buffer from the previous input
 
         switch (choice) {
         case 1: {
-            std::cin.clear();
             addExpense(expenses);
             break;
         }
         case 2: {
-            std::cin.clear();
             showExpenses(expenses);
             break;
         }
         case 3: {
-            std::cin.clear();
             findExpense(expenses);
             break;
         }
         case 4: {
-            std::cin.clear();
             // Write to binary file
             writeExpenses(expenses, "expenses.dat");
             return 0;
         }
-        default:
-            std::cout << "Invalid choice. Please enter a number between 1 and 4.\n";            
-            break;
+        default: {
+            std::cout << "Invalid choice. Please enter a number between 1 and 4.\n";
+        }
         }
     }
 
